@@ -3,12 +3,14 @@
 
 A dynamic website showcasing an e learning platform (Bodhitree 2.0).
 
-- # TECHNOLOGIES USED:
+# TECHNOLOGIES USED:
 - Front end: Html, CSS , along with Bootstrap for designing purpose
 - Backend: done in PHP
 - Database: MySQL database
-
 - Done using the xampp server
+
+# Results:
+
 
 ![image](https://user-images.githubusercontent.com/92793651/232584935-41b53fb0-fe67-41d6-a87f-aa5702a30ed0.png)
 
