@@ -1,6 +1,6 @@
 # miniproject
 
-A dynamic website showcasing an e learning plstform (Bodhitree 2.0).
+A dynamic website showcasing an e learning platform (Bodhitree 2.0).
 
 - TECHNOLOGIES USED:
 - Front end: Html, CSS , along with Bootstrap for designing purpose
