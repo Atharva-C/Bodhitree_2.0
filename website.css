@@ -1,0 +1,43 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+
+.carousel-inner img{
+    height: 130vh;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(50, 46, 46);
+}
+.text{
+    color: rgb(234, 234, 230);
+    font-size: 21px;
+}
+#heading{
+    color: rgb(234, 234, 230);
+    font-size: 45px;
+}
+.col-lg-4{
+    padding-left: 5px;
+    padding-right: 50px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -16px;
+    margin-left: -15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+b, strong {
+    font-weight: bolder;
+    color: black;
+}
+
+
+    

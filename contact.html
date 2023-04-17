@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>BodhiTree 2.0 | An E-learning platform</title>
+
+  <!-- link css  -->
+  <link rel="stylesheet" href="data_validation.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="home.html">BodhiTree 2.0</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="courses.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <form action="userinfo.php" method="post" >
+    <div class="showcase">
+    </div>
+    <div class="container">
+      <h1>Registration Form</h1>
+      <p>Please fill this form to get in contact with us!!</p>
+      <hr />
+      <div class="container-user">
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" id="us" name="Username" />
+      </div>
+
+      <!-- <div class="container-pass">
+        <label for="psw"><b>Password</b></label>
+        <input type="text" placeholder="Enter Password" id="psw" name="Password" required />
+      </div> -->
+
+      <div class="container-Em">
+        <label>EmailID</label>
+        <input type="text" placeholder="Enter Email ID" id="em" name="EmailID" />
+      </div>
+
+      <div class="container-ph">
+        <label>PhoneNo</label>
+        <input type="text" placeholder="Enter Phone no." id="ph" name="PhoneNo" />
+      </div>
+
+      <!-- <div class="container-com">
+        <label>Comments</label>
+        <textarea class="form-control" name="Comments">
+        </textarea>
+      </div> -->
+
+ 
+      <hr />
+      <button  class='registration' onclick="Validation(),CheckPassword(),Checkphone(),Checkemail(),aftersubmit(e)" type="submit"> Submit </button>
+    </div>
+  </form>
+  <script src="Register_js.js"></script>
+</body>
+</html>
