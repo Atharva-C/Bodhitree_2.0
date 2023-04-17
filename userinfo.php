@@ -3,7 +3,9 @@
 $con = mysqli_connect('127.0.0.1:4306','root','','bodhitree');
 
 if($con){
-    echo "Connection Successful";
+    echo "<br>";
+    echo "<br>";
+    echo "CONNECTION SUCCESSFUL!";
 }else{
     echo "No Connection!";
 }
@@ -23,7 +25,10 @@ $sql= " INSERT INTO `userinfodata` (`Username`, `EmailID`, `PhoneNo`) values ( '
 
 if($rs)
 {
-	echo "Contact Records Inserted <br> <br>";
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+	echo "THANK YOU FOR REGISTERING WITH US!!";
 
 }
 ?>
