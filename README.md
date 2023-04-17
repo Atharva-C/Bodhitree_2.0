@@ -1,4 +1,5 @@
-# miniproject
+# Bodhitree_2.0
+
 
 A dynamic website showcasing an e learning platform (Bodhitree 2.0).
 
